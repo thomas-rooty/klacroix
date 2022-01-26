@@ -1,16 +1,15 @@
 import React from 'react';
-
 import './App.css';
+
+// Import navbar
+import Navbar from './Components/Navbar/Navbar';
 
 const App = () => {
     return (
       <div className="App">
-        <header className="App-header">
-          <img className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+        <Navbar />
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          KLACROIX
         </p>
       </div>
     );
