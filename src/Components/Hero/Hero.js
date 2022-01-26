@@ -2,14 +2,14 @@ import React from 'react';
 import './Hero.css';
 
 // Import assets/hero.mp4
-import hero from '../../Assets/HeroVideo.mp4';
+import HeroVideo from '../../Assets/HeroVideo.mp4';
 
 const Hero = () => {
     // Fixed video in the center of the screen (hero.mp4)
     return (
         <div className="hero">
             <video autoPlay loop muted>
-                <source src={hero} type="video/mp4" />
+                <source src={HeroVideo} type="video/mp4" />
             </video>
             <div className="hero-text-box">
                 <h1 className='glowingText'>K. LACROIX</h1>
