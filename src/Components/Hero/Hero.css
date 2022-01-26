@@ -1,0 +1,27 @@
+h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.hero-text-box {
+    position: absolute;
+    bottom: 40vh;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.glowingText {
+    text-shadow: 0 0 10px #fff;
+    color: white;
+}
+
+.btn-banner {
+    margin-top: 40px;
+    background: none;
+    border: none;
+    font-size: 20px;
+}

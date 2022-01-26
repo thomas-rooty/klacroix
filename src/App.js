@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
 
-// Import navbar
+// Import components
 import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Hero/Hero';
 
 const App = () => {
     return (
       <div className="App">
+        <Hero />
         <Navbar />
-        <p className="App-intro">
-          KLACROIX
-        </p>
       </div>
     );
 }
