@@ -1,4 +1,5 @@
 import React from 'react';
+import RideCeption from '../../Assets/rideception_logo.png';
 import './Navbar.css';
 
 // Fixed navbar that hide on scroll down
@@ -22,25 +23,17 @@ const Navbar = () => {
     }
 
     return (
-        <>
-            <div id="navbar">
-                <div className='navbar-left'>
-                    <a href='#'>LOGO</a>
-                </div>
-                <div className="navbar-center">
-                    <a href="#" className="active" onClick={changeActive}>HOME</a>
-                    <a href="#" onClick={changeActive}>ABOUT</a>
-                    <a href="#" onClick={changeActive}>CONTACT</a>
-                </div>
-            </div>
+        <div id="navbar">
+            <div className='navbar-left'>
+                <img className='logoNavbar' src={RideCeption} alt="Ride ception logo" />
 
-            <div className="text">
-                <p><b>La position du rat est une position adoptée par le rat lui-même.</b></p>
-                <p>Scroll en bas chacal!</p>
-                <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-        </>
+            <div className="navbar-center">
+                <a href="#" className="active" onClick={changeActive}>HOME</a>
+                <a href="#" onClick={changeActive}>ABOUT</a>
+                <a href="#" onClick={changeActive}>CONTACT</a>
+            </div>
+        </div>
     )
 }
 

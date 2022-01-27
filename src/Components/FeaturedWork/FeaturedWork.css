@@ -1,0 +1,32 @@
+.featuredWork {
+    position: absolute;
+    width: 100%;
+    background: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredWork-text-box {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.featuredWork-text-box > h3 {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.featuredWork-content-items {
+    text-align: center;
+}
+
+.featuredWork-content-item {
+    display: inline-block;
+}
+
+#projectImg {
+    width: 40vw;
+    height: auto;
+}
