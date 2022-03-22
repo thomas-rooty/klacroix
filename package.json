@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
     "react-parallax": "^3.3.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "cssnano": "^5.1.5",
+    "parcel": "^2.0.0",
+    "postcss": "^8.4.12"
   }
 }
