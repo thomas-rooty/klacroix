@@ -2,3 +2,9 @@ dist
 node_modules
 .parcel-cache
 .cache
+/.idea/.gitignore
+/.idea/discord.xml
+/.idea/klacroix.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
