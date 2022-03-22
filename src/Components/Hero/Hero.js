@@ -1,7 +1,6 @@
 import React from 'react';
 import './Hero.css';
-
-// Import assets
+import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import HeroVideo from './Assets/HeroVideo.mp4';
 import ArrowRight from './Icons/arrow-right.svg';
 
@@ -15,7 +14,9 @@ const Hero = () => {
             <div className="hero-text-box">
                 <h1 className='glowingText'>LAC X FILMS</h1>
                 <h2 className='glowingText'>KEVIN LACROIX</h2>
-                <button className='btn-banner glowingText' type="button">Featured Work <img src={ArrowRight} alt="Arrow Right"/></button>
+                <AnchorLink href='#featuredwork'>
+                    <button className='btn-banner glowingText' type="button">Featured Work <img src={ArrowRight} alt="Arrow Right"/></button>
+                </AnchorLink>
             </div>
         </div>
     )

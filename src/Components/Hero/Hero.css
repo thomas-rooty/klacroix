@@ -23,7 +23,7 @@ h2 {
 .hero {
     padding: 0;
     display: block;
-    height: 140vh;
+    height: 120vh;
 }
 
 .hero > video {

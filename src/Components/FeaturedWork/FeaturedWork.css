@@ -1,8 +1,23 @@
 .fw-content {
-    background: white;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.fw-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.fw-title {
+    font-size: 18px;
+    color: white;
 }
