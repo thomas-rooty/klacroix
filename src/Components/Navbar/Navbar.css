@@ -5,7 +5,7 @@
     width: 100vw;
     height: 80px;
     display: block;
-    transition: top 0.3s;
+    transition: 0.3s;
 }
 
 .active {
@@ -41,11 +41,11 @@
     padding: 32px;
     text-decoration: none;
     font-size: 14px;
+    transition: all 0.3s ease-in-out;
 }
 
 #navbar a:hover {
     color: rgb(120, 120, 120);
-    transition: 0.3s;
 }
 
 .text {
@@ -55,7 +55,6 @@
 }
 
 .logoNavbar {
-    width: 150px;
-    height: auto;
-    margin-top: 10px;
+    width: auto;
+    height: 70px;
 }

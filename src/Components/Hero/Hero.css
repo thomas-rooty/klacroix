@@ -1,21 +1,37 @@
+@font-face {
+    font-family: "Lulo Clean One";
+    src: local("Lulo Clean One"), url("../../Assets/Fonts/Lulo-Clean-One.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lulo Clean One Bold";
+    src: local("Lulo Clean One Bold"), url("../../Assets/Fonts/Lulo-Clean-One-Bold.ttf") format("truetype");
+}
+
 h1 {
-    font-size: 55px;
+    font-family: "Lulo Clean One Bold", sans-serif;
+    font-size: 60px;
     margin: 0;
 }
 
 h2 {
+    font-family: "Lulo Clean One Bold", sans-serif;
     font-size: 25px;
     margin: 0;
 }
 
 .hero {
-    margin-bottom: -5px;
     padding: 0;
+    display: block;
+    height: 140vh;
 }
 
 .hero > video {
+    position: fixed;
+    left: 0;
     width: 100%;
     height: auto;
+    z-index: -1;
 }
 
 .hero-text-box {
@@ -26,6 +42,7 @@ h2 {
 }
 
 .glowingText {
+    font-family: "Lulo Clean One", sans-serif;
     text-shadow: 0 0 10px #fff;
     color: white;
 }
@@ -35,4 +52,21 @@ h2 {
     background: none;
     border: none;
     font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-banner:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.btn-banner>img {
+    filter: invert(100%) sepia(37%) saturate(0%) hue-rotate(305deg) brightness(106%) contrast(107%);
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+    margin-left: 5px;
 }

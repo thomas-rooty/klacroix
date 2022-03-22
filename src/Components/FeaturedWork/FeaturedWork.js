@@ -1,35 +1,16 @@
 import React from 'react';
-import './FeaturedWork.css';
+import "./FeaturedWork.css";
+import {Parallax, Background} from 'react-parallax';
+import FeaturedWorkBg from './Assets/Images/FeaturedWorkBg.jpg';
 
 const FeaturedWork = () => {
     return (
-        <div className="featuredWork">
-            <div className="featuredWork-text-box">
-                <h3 className='glowingText'>FEATURED WORK</h3>
-                <hr></hr>
+        <Parallax bgImage={FeaturedWorkBg} strength={500}>
+            <div style={{height: 1000}}>
+                <div className="fw-content">HTML inside the parallax</div>
             </div>
-            <div className="featuredWork-content">
-                <div className="featuredWork-content-items">
-                    <div className="featuredWork-content-item">
-                        <div className="featuredWork-content-item-image">
-                            <img id='projectImg' src='https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt="" />
-                        </div>
-                        <div className="featuredWork-content-item-text">
-                            <p>Projet 1</p>
-                        </div>
-                    </div>
-                    <div className="featuredWork-content-item">
-                        <div className="featuredWork-content-item-image">
-                            <img id='projectImg' src='https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt="" />
-                        </div>
-                        <div className="featuredWork-content-item-text">
-                            <p>Projet 2</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+        </Parallax>
+    );
 }
 
 export default FeaturedWork;

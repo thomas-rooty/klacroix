@@ -1,5 +1,6 @@
 import React from 'react';
 import RideCeption from '../../Assets/rideception_logo.png';
+import LGLogoBlackBg from './Assets/Icons/LFLogoBlackBg.png';
 import './Navbar.css';
 
 // Fixed navbar that hide on scroll down
@@ -25,7 +26,7 @@ const Navbar = () => {
     return (
         <div id="navbar">
             <div className='navbar-left'>
-                <img className='logoNavbar' src={RideCeption} alt="Ride ception logo" />
+                <img className='logoNavbar' src={LGLogoBlackBg} alt="Ride ception logo" />
 
             </div>
             <div className="navbar-center">
