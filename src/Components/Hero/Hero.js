@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
-import HeroVideo from './Assets/HeroVideo.mp4';
+import HeroVideo from 'url:./Assets/HeroVideo.mp4';
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
