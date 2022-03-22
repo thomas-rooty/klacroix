@@ -7,7 +7,6 @@ import './Navbar.css';
 const Navbar = () => {
     // Add event listener window scroll
     window.addEventListener('scroll', () => {
-        console.log(currentScrollPos);
         let currentScrollPos = window.pageYOffset;
         if (currentScrollPos < 225) {
             document.getElementById("navbar").style.top = "0";
