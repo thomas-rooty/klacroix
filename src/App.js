@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import FeaturedWork from "./Components/FeaturedWork/FeaturedWork";
+import Brands from "./Components/Brands/Brands";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero/>
             <Navbar/>
             <FeaturedWork/>
+            <Brands/>
         </div>
     );
 }

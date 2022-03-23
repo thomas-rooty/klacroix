@@ -1,6 +1,7 @@
 import React from 'react';
 import RideCeption from '../../Assets/rideception_logo.png';
 import LGLogoBlackBg from './Assets/Icons/LFLogoBlackBg.png';
+import Signature from './Assets/Icons/Signature.png';
 import Instagram from './Assets/Icons/instagram.png';
 import Linkedin from './Assets/Icons/linkedin.png';
 import Tiktok from './Assets/Icons/tiktok.png';
@@ -29,7 +30,7 @@ const Navbar = () => {
     return (
         <div id="navbar">
             <div className='navbar-left'>
-                <img className='logoNavbar' src={LGLogoBlackBg} alt="Ride ception logo"/>
+                <img className='logoNavbar' src={Signature} alt="Ride ception logo"/>
             </div>
             <div className="navbar-center">
                 <a href="#" className="active" onClick={changeActive}>HOME</a>
