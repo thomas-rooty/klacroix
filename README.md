@@ -11,5 +11,18 @@
 ### Brands and about
 ![image](https://user-images.githubusercontent.com/19364687/159715796-33471790-13e0-4f27-a35d-3df51155925d.png)
 
+## How to run ?
+#### Powered by Parcel
+### Dev
+```bash
+npm install
+npm run start
+```
+
+### Build for production
+```bash
+npm run build
+```
+
 ## Powered by
 React, Parcel and Vercel
