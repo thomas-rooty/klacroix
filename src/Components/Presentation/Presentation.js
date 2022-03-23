@@ -23,9 +23,8 @@ const Presentation = () => {
                                     A creative videast and pilot drone
                                 </h2>
                                 <p>
-                                    After almost 3 years to develop my skillsets in film making, I decided to launch my
-                                    own
-                                    business.
+                                    After almost 3 years of developing my skill set in film making, I decided to launch
+                                    my own business.
                                 </p>
                                 <p>
                                     I'm a certified professional drone pilot and an experimented filmaker<br/>
