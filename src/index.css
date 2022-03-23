@@ -7,3 +7,14 @@ body {
     padding: 0;
     font-family: sans-serif;
 }
+
+@font-face {
+    font-family: "Lulo Clean One";
+    src: local("Lulo Clean One"), url("./Assets/Fonts/Lulo-Clean-One.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lulo Clean One Bold";
+    src: local("Lulo Clean One Bold"), url("./Assets/Fonts/Lulo-Clean-One-Bold.ttf") format("truetype");
+}
+

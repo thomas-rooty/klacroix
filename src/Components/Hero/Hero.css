@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Lulo Clean One";
-    src: local("Lulo Clean One"), url("../../Assets/Fonts/Lulo-Clean-One.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "Lulo Clean One Bold";
-    src: local("Lulo Clean One Bold"), url("../../Assets/Fonts/Lulo-Clean-One-Bold.ttf") format("truetype");
-}
-
 h1 {
     font-family: "Lulo Clean One Bold", sans-serif;
     font-size: 60px;
