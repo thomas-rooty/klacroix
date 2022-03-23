@@ -20,7 +20,7 @@ const Presentation = () => {
                                     Kevin Lacroix
                                 </h1>
                                 <h2 className="presentation-sub glowingText">
-                                    A creative videast and pilot drone
+                                    A creative videast and drone pilot
                                 </h2>
                                 <p>
                                     After almost 3 years of developing my skill set in film making, I decided to launch
