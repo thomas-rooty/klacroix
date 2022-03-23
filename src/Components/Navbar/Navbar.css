@@ -20,7 +20,7 @@
     margin-left: 100px;
     height: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -74,5 +74,5 @@
 
 .logoNavbar {
     width: auto;
-    height: 70px;
+    height: 50px;
 }

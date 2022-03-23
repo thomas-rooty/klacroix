@@ -21,3 +21,34 @@
     font-size: 18px;
     color: white;
 }
+
+/* Featured Work Showcasing */
+
+.fw-showcase {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fw-oneShowcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.fw-oneShowcase>img {
+    width: 800px;
+    height: auto;
+    margin: 0 0 10px;
+}
+
+.fw-oneShowcase:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
