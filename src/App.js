@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import FeaturedWork from "./Components/FeaturedWork/FeaturedWork";
 import Brands from "./Components/Brands/Brands";
+import Presentation from "./Components/Presentation/Presentation";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Navbar/>
             <FeaturedWork/>
             <Brands/>
+            <Presentation/>
         </div>
     );
 }

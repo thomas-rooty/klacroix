@@ -1,0 +1,58 @@
+.presentation-container {
+    padding-top: 40px;
+    color: white;
+}
+
+.presentation-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    width: 60%;
+    margin-left: 20%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.presentation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 40%;
+    height: fit-content;
+    margin-top: 30px;
+}
+
+.presentation-title {
+    font-family: "Trend-Four", sans-serif;
+    text-shadow: #ffffff 0 0 3px;
+    letter-spacing: 8px;
+}
+
+.presentation-sub {
+    font-size: 16px;
+    letter-spacing: 4px;
+    margin-left: 10px;
+}
+
+.presentation-content>p {
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+.presentation-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.presentation-photo>img {
+    width: auto;
+    height: 400px;
+    margin-left: 20px;
+}
