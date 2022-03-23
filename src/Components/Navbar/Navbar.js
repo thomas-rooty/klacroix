@@ -33,9 +33,9 @@ const Navbar = () => {
                 <img className='logoNavbar' src={Signature} alt="Ride ception logo"/>
             </div>
             <div className="navbar-center">
-                <a href="#" className="active" onClick={changeActive}>HOME</a>
-                <a href="#" onClick={changeActive}>ABOUT</a>
-                <a href="#" onClick={changeActive}>CONTACT</a>
+                <a href="#home" className="active" onClick={changeActive}>HOME</a>
+                <a href="#about" onClick={changeActive}>ABOUT</a>
+                <a href="#contact" onClick={changeActive}>CONTACT</a>
             </div>
             <div className='navbar-right'>
                 <img className='sociamedia' src={Youtube} alt="Youtube logo"/>

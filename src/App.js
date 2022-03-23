@@ -7,6 +7,7 @@ import Hero from './Components/Hero/Hero';
 import FeaturedWork from "./Components/FeaturedWork/FeaturedWork";
 import Brands from "./Components/Brands/Brands";
 import Presentation from "./Components/Presentation/Presentation";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <FeaturedWork/>
             <Brands/>
             <Presentation/>
+            <Footer/>
         </div>
     );
 }

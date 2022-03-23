@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-footer {
+    background: none;
+    font-family: "Lulo Clean One", sans-serif;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-footer:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
