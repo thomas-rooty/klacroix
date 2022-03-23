@@ -52,3 +52,22 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+
+@media only screen and (max-width: 1100px) {
+    .fw-header {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .fw-title {
+        font-size: 16px;
+    }
+
+    .fw-showcase {
+        flex-direction: column;
+    }
+
+    .fw-oneShowcase {
+        margin-bottom: 20px;
+    }
+}

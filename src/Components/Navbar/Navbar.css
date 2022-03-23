@@ -2,7 +2,7 @@
     background-color: rgb(3, 3, 3);
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,6 @@
 }
 
 .navbar-left {
-    margin-left: 100px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -39,7 +38,7 @@
 .navbar-center>a {
     display: inline-block;
     color: #f2f2f2;
-    padding: 32px;
+    padding: 10px;
     text-decoration: none;
     font-size: 14px;
     transition: all 0.3s ease-in-out;
@@ -48,12 +47,11 @@
 .navbar-right {
     height: 100%;
     display: flex;
-    margin-right: 100px;
     align-items: center;
 }
 
 .navbar-right>img {
-    margin-right: 10px;
+    margin-right: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -76,4 +74,10 @@
     width: auto;
     height: 150px;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar-right {
+        display: none;
+    }
 }

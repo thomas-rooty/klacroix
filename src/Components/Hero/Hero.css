@@ -63,3 +63,28 @@ h2 {
     vertical-align: bottom;
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 1100px) {
+    .hero>video {
+        width: 100vw;
+        min-width: 100vw;
+    }
+
+    .hero-text-box {
+        margin-left: 15px;
+        top: 160px;
+    }
+
+    .hero-text-box h1 {
+        font-size: 30px;
+    }
+
+    .hero-text-box h2 {
+        font-size: 15px;
+    }
+
+    .btn-banner {
+        font-size: 15px;
+    }
+
+}
