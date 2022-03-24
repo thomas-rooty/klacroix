@@ -6,10 +6,15 @@ import HeroVideoCompressed from 'url:./Assets/HeroVideoCompressed.mp4';
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
-    React.useEffect(() => {
+    const playVideo = () => {
         const video = document.getElementById('hero-video');
         video.play();
+    }
+
+    React.useEffect(() => {
+        playVideo();
     })
+
     return (
         <section id="home">
             <div className="hero">
@@ -23,7 +28,8 @@ const Hero = () => {
                         <button className='btn-banner glowingText' type="button">Featured Work <img src={ArrowRight}
                                                                                                     alt="Arrow Right"/>
                         </button>
-                    </AnchorLink>
+                    </AnchorLink><br/>
+                    <button onClick={playVideo} className='hidden btn-banner glowingText' type="button">Play Video</button>
                 </div>
             </div>
         </section>
