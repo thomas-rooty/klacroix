@@ -13,7 +13,7 @@ const FeaturedWork = () => {
                 <div style={{height: 800}}>
                     <div className="fw-content">
                         <div className="fw-header">
-                            <h2 className='fw-title glowingText'>Featured Content</h2>
+                            <h2 className='fw-title glowingText'>Featured Work</h2>
                         </div>
                         <div className="fw-showcase">
                             <div className="fw-oneShowcase">

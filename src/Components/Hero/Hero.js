@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
-    const VideoLink = 'https://i.imgur.com/nRqabix.mp4';
+    const VideoLink = 'https://tcaronbucket.s3.eu-west-3.amazonaws.com/shot+in+paris+4k+DCI.mp4';
     return (
         <section id="home">
             <div className="hero">
@@ -13,6 +13,7 @@ const Hero = () => {
                 <video id="hero-video" loop muted playsinline autoplay>
                     <source src="${VideoLink}" type="video/mp4" />
                 </video>
+                <audio rel="audio_tag" autoplay src="https://www.mboxdrive.com/HeroSound.mp3" type="audio/mp3" />
             `
                 }}/>
                 <div className="hero-text-box">
