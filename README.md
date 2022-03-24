@@ -25,4 +25,4 @@ npm run build
 ```
 
 ## Powered by
-React, Parcel and Vercel
+React, Parcel and Heroku
