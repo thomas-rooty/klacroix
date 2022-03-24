@@ -7,13 +7,14 @@ import HeroVideoMobile from 'url:./Assets/HeroVideoCompressed.gif';
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
+    const VideoLink = 'https://i.imgur.com/EPjwA4m.mp4';
     return (
         <section id="home">
             <div className="hero">
                 <div dangerouslySetInnerHTML={{
                     __html: `
                 <video id="hero-video" loop muted playsinline autoplay>
-                    <source src="${HeroVideoCompressed}" type="video/mp4" />
+                    <source src="${VideoLink}" type="video/mp4" />
                 </video>
             `
                 }}/>
