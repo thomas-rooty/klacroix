@@ -2,16 +2,34 @@ import React from 'react';
 import './Hero.css';
 import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import ArrowRight from './Icons/arrow-right.svg';
+import {storage} from '../../Services/Firebase';
+import {getStorage, ref, getDownloadURL} from "firebase/storage";
 
 const Hero = () => {
-    const VideoLink = 'https://firebasestorage.googleapis.com/v0/b/tcaron-b55e5.appspot.com/o/shot%20in%20paris%204k%20DCI.mp4?alt=media&token=c58619a2-e8b9-4378-8edc-faac98fd3c21';
+    const [video, setVideo] = React.useState(null);
+    React.useEffect(() => {
+        const storage = getStorage();
+
+        const storageRef = ref(storage);
+        const videosRef = ref(storageRef, 'videos');
+
+        const fileName = 'shot in paris 4k DCI.mp4';
+        const videoRef = ref(videosRef, fileName);
+
+        // Get the download URL
+        getDownloadURL(videoRef).then(url => {
+            setVideo(url);
+        });
+    }, []);
+
+
     return (
         <section id="home">
             <div className="hero">
                 <div dangerouslySetInnerHTML={{
                     __html: `
                 <video id="hero-video" loop muted playsinline autoplay>
-                    <source src="${VideoLink}" type="video/mp4" />
+                    <source src="${video}" type="video/mp4" />
                 </video>
                 <audio rel="audio_tag" autoplay src="https://www.mboxdrive.com/HeroSound.mp3" type="audio/mp3" />
             `
