@@ -6,10 +6,14 @@ import HeroVideoCompressed from 'url:./Assets/HeroVideoCompressed.mp4';
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
+    React.useEffect(() => {
+        const video = document.getElementById('hero-video');
+        video.play();
+    })
     return (
         <section id="home">
             <div className="hero">
-                <video autoPlay loop muted>
+                <video id="hero-video" autoPlay loop muted>
                     <source src={HeroVideoCompressed} type="video/mp4"/>
                 </video>
                 <div className="hero-text-box">
