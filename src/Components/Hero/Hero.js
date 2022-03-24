@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
-    const VideoLink = 'https://tcaronbucket.s3.eu-west-3.amazonaws.com/shot+in+paris+4k+DCI.mp4';
+    const VideoLink = 'https://firebasestorage.googleapis.com/v0/b/tcaron-b55e5.appspot.com/o/shot%20in%20paris%204k%20DCI.mp4?alt=media&token=c58619a2-e8b9-4378-8edc-faac98fd3c21';
     return (
         <section id="home">
             <div className="hero">
