@@ -1,13 +1,10 @@
 import React from 'react';
 import './Hero.css';
 import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
-import HeroVideo from 'url:./Assets/HeroVideo.mp4';
-import HeroVideoCompressed from 'url:./Assets/HeroVideoCompressed.mp4';
-import HeroVideoMobile from 'url:./Assets/HeroVideoCompressed.gif';
 import ArrowRight from './Icons/arrow-right.svg';
 
 const Hero = () => {
-    const VideoLink = 'https://i.imgur.com/EPjwA4m.mp4';
+    const VideoLink = 'https://i.imgur.com/AoMarNV.mp4';
     return (
         <section id="home">
             <div className="hero">
