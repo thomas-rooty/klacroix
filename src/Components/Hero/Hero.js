@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import ArrowRight from './Icons/arrow-right.svg';
 import {storage} from '../../Services/Firebase';
 import {getStorage, ref, getDownloadURL} from "firebase/storage";
+import HeroVideo from 'url:./HeroVideo.mp4';
 
 const Hero = ({value: {setIsSiteReady}}) => {
     const [video, setVideo] = React.useState(null);
@@ -30,7 +31,7 @@ const Hero = ({value: {setIsSiteReady}}) => {
                 <div dangerouslySetInnerHTML={{
                     __html: `
                 <video id="hero-video" loop muted playsinline autoplay>
-                    <source src="${video}" type="video/mp4" />
+                    <source src="${HeroVideo}" type="video/mp4" />
                 </video>
             `
                 }}/>
