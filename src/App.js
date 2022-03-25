@@ -11,7 +11,6 @@ const App = () => {
     const [isSiteReady, setIsSiteReady] = React.useState(false);
     return (
         <div className="App">
-            {!isSiteReady && <h1>Site is loading...</h1>}
             <Hero value={{isSiteReady, setIsSiteReady}}/>
             <Navbar/>
             <FeaturedWork/>
