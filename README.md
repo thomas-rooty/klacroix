@@ -1,5 +1,6 @@
 # LAC X FILMS Website 
 [![Node.js CI](https://github.com/thomas-rooty/klacroix/actions/workflows/node.js.yml/badge.svg)](https://github.com/thomas-rooty/klacroix/actions/workflows/node.js.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb29120b-065c-4dc2-b7d3-7df49df1975e/deploy-status)](https://app.netlify.com/sites/lacxfilms/deploys)
 
 ## Preview
 ### Home
