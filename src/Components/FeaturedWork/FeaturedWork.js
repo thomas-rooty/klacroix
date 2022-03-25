@@ -10,7 +10,7 @@ const FeaturedWork = () => {
     return (
         <section id='featuredwork'>
             <Parallax bgImage={FeaturedWorkBg} strength={500}>
-                <div style={{height: 800}}>
+                <div style={{height: 650}}>
                     <div className="fw-content">
                         <div className="fw-header">
                             <h2 className='fw-title glowingText'>Featured Work</h2>
