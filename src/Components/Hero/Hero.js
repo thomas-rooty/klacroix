@@ -13,7 +13,7 @@ const Hero = ({value: {setIsSiteReady}}) => {
         const storageRef = ref(storage);
         const videosRef = ref(storageRef, 'videos');
 
-        const fileName = 'shot in paris 4k DCI.mp4';
+        const fileName = 'shot in paris 4k DCI.webm';
         const videoRef = ref(videosRef, fileName);
 
         // Get the download URL
