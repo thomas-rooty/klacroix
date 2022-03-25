@@ -13,7 +13,7 @@ const Hero = ({value: {setIsSiteReady}}) => {
         const storageRef = ref(storage);
         const videosRef = ref(storageRef, 'videos');
 
-        const fileName = 'shot in paris 4k DCI.webm';
+        const fileName = 'shot in paris 4k DCI.mp4';
         const videoRef = ref(videosRef, fileName);
 
         // Get the download URL
@@ -32,7 +32,6 @@ const Hero = ({value: {setIsSiteReady}}) => {
                 <video id="hero-video" loop muted playsinline autoplay>
                     <source src="${video}" type="video/mp4" />
                 </video>
-                <audio rel="audio_tag" autoplay src="https://www.mboxdrive.com/HeroSound.mp3" type="audio/mp3" />
             `
                 }}/>
                 <div className="hero-text-box">
