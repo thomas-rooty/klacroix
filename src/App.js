@@ -9,36 +9,15 @@ import Footer from "./Components/Footer/Footer";
 
 const App = () => {
     const [isSiteReady, setIsSiteReady] = React.useState(false);
-
-    // This will run one time after the component mounts
-    React.useEffect(() => {
-        const onPageLoad = () => {
-            setIsSiteReady(true);
-        };
-
-        // Check if the page has already loaded
-        if (document.readyState === "complete") {
-            onPageLoad();
-        } else {
-            window.addEventListener("load", onPageLoad);
-            // Remove the event listener when component unmounts
-            return () => window.removeEventListener("load", onPageLoad);
-        }
-    }, []);
     return (
         <div className="App">
-            {isSiteReady ? (
-                <>
-                    <Hero/>
-                    <Navbar/>
-                    <FeaturedWork/>
-                    <Brands/>
-                    <Presentation/>
-                    <Footer/>
-                </>
-            ) : (
-                <div>Loading...</div>
-            )}
+            {!isSiteReady && <h1>Site is loading...</h1>}
+            <Hero value={{isSiteReady, setIsSiteReady}}/>
+            <Navbar/>
+            <FeaturedWork/>
+            <Brands/>
+            <Presentation/>
+            <Footer/>
         </div>
     );
 }

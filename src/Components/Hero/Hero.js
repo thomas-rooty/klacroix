@@ -5,7 +5,7 @@ import ArrowRight from './Icons/arrow-right.svg';
 import {storage} from '../../Services/Firebase';
 import {getStorage, ref, getDownloadURL} from "firebase/storage";
 
-const Hero = () => {
+const Hero = ({value: {setIsSiteReady}}) => {
     const [video, setVideo] = React.useState(null);
     React.useEffect(() => {
         const storage = getStorage();
@@ -19,6 +19,7 @@ const Hero = () => {
         // Get the download URL
         getDownloadURL(videoRef).then(url => {
             setVideo(url);
+            setIsSiteReady(true);
         });
     }, []);
 
