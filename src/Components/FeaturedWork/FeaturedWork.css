@@ -69,5 +69,11 @@
 
     .fw-oneShowcase {
         margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .fw-oneShowcase > img {
+        width: 70vw;
     }
 }
