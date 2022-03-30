@@ -38,10 +38,15 @@ const Navbar = () => {
                 <a href="#contact" onClick={changeActive}>CONTACT</a>
             </div>
             <div className='navbar-right'>
-                <img className='sociamedia' src={Youtube} alt="Youtube logo"/>
-                <img className='sociamedia' src={Tiktok} alt="Tiktok logo"/>
-                <img className='sociamedia' src={Instagram} alt="Instagram logo"/>
-                <img className='sociamedia' src={Linkedin} alt="Linkedin logo"/>
+                <a href="https://www.youtube.com/channel/UCOU98_rG1FFUKVPWta1Z7eQ" target="_blank" rel="noopener noreferrer">
+                    <img className='socialmedia' src={Youtube} alt="Youtube"/>
+                </a>
+                <a href="https://www.tiktok.com/@lacroix__kevin" target="_blank" rel="noopener noreferrer">
+                    <img className='socialmedia' src={Tiktok} alt="Tiktok"/>
+                </a>
+                <a href="https://www.instagram.com/kevin__lacroix/" target="_blank" rel="noopener noreferrer">
+                    <img className='socialmedia' src={Instagram} alt="Instagram"/>
+                </a>
             </div>
         </div>
     )

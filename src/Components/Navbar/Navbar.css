@@ -50,13 +50,13 @@
     align-items: center;
 }
 
-.navbar-right>img {
+.socialmedia {
     margin-right: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
-.navbar-right>img:hover {
+.socialmedia:hover {
     transform: scale(1.3);
 }
 
