@@ -9,3 +9,4 @@ node_modules
 /.idea/modules.xml
 /.idea/vcs.xml
 /.idea/
+.env.local

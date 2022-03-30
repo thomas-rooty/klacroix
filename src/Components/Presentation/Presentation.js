@@ -8,7 +8,7 @@ import PresBg from "./urbexbg.jpeg";
 const Presentation = () => {
     return (
         <section id='about'>
-            <Parallax bgImage={PresBg} strength={800}>
+            <Parallax bgImage={PresBg} strength={300}>
                 <div style={{height: 650}}>
                     <div className="presentation-container">
                         <div className="presentation-header">
