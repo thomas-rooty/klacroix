@@ -47,6 +47,9 @@ const Navbar = () => {
                 <a href="https://www.instagram.com/kevin__lacroix/" target="_blank" rel="noopener noreferrer">
                     <img className='socialmedia' src={Instagram} alt="Instagram"/>
                 </a>
+                <a href="https://www.linkedin.com/in/kevin-lacroix-b5141a236/" target="_blank" rel="noopener noreferrer">
+                    <img className='socialmedia' src={Linkedin} alt="Linkedin"/>
+                </a>
             </div>
         </div>
     )
