@@ -1,3 +1,5 @@
+// noinspection JSUnresolvedVariable
+
 import React from 'react';
 import "./FeaturedWork.css";
 import {Parallax, Background} from 'react-parallax';
@@ -31,6 +33,11 @@ const FeaturedWork = () => {
             Chevron.style.transform = "rotate(0deg)";
         }
     }
+
+    const openVideo = (videoId) => {
+        window.open(`https://www.youtube.com/watch?v=${videoId}`, "_blank");
+    }
+
     return (
         <section id='featuredwork'>
             <Parallax bgImage={FeaturedWorkBg} strength={500}>
@@ -43,21 +50,21 @@ const FeaturedWork = () => {
                             <div id="FeaturedVideosContainer" className="fw-showcase">
                                 <div className="first-videos">
                                     <div className="fw-oneShowcase">
-                                        <img src={getVideoThumbnail(featuredVideos[0].contentDetails.videoId)} alt=""/>
+                                        <img onClick={() => openVideo(featuredVideos[0].contentDetails.videoId)} src={getVideoThumbnail(featuredVideos[0].contentDetails.videoId)} alt=""/>
                                         <h2 className='fw-title glowingText'>{featuredVideos[0].snippet.title}</h2>
                                     </div>
                                     <div className="fw-oneShowcase">
-                                        <img src={getVideoThumbnail(featuredVideos[1].contentDetails.videoId)} alt=""/>
+                                        <img onClick={() => openVideo(featuredVideos[1].contentDetails.videoId)} src={getVideoThumbnail(featuredVideos[1].contentDetails.videoId)} alt=""/>
                                         <h2 className='fw-title glowingText'>{featuredVideos[1].snippet.title}</h2>
                                     </div>
                                 </div>
                                 <div className="second-videos">
                                     <div className="fw-oneShowcase">
-                                        <img src={getVideoThumbnail(featuredVideos[2].contentDetails.videoId)} alt=""/>
+                                        <img onClick={() => openVideo(featuredVideos[2].contentDetails.videoId)} src={getVideoThumbnail(featuredVideos[2].contentDetails.videoId)} alt=""/>
                                         <h2 className='fw-title glowingText'>{featuredVideos[2].snippet.title}</h2>
                                     </div>
                                     <div className="fw-oneShowcase">
-                                        <img src={getVideoThumbnail(featuredVideos[3].contentDetails.videoId)} alt=""/>
+                                        <img onClick={() => openVideo(featuredVideos[3].contentDetails.videoId)} src={getVideoThumbnail(featuredVideos[3].contentDetails.videoId)} alt=""/>
                                         <h2 className='fw-title glowingText'>{featuredVideos[3].snippet.title}</h2>
                                     </div>
                                 </div>
