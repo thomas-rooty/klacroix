@@ -14,6 +14,7 @@
 
 ## How to run ?
 #### Powered by Parcel
+#### Create an .env.local file with the YOUTUBE_API_KEY referenced here
 ### Dev
 ```bash
 npm install
