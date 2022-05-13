@@ -1,6 +1,6 @@
 const playlistId = "PLxciBEPqAP_wxq-FH02Cgz5X9qYH_h_2u";
 const YOUTUBE_PLAYLIST_ITEMS_API = "https://youtube.googleapis.com/youtube/v3/playlistItems";
-const YOUTUBE_API_KEY= 'AIzaSyBDvR7rkf6CQFV_AsQ-4aB3r2iFeYbvsgM';
+const YOUTUBE_API_KEY= process.env.REACT_APP_YOUTUBE_API_KEY;
 
 export const getPlaylistItems = async () => {
     const response = await fetch(
