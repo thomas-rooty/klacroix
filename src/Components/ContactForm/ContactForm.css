@@ -1,0 +1,52 @@
+.form-container {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    margin-bottom: 5px;
+    padding: 10px;
+    background: rgb(53, 58, 81);
+    border: none;
+    color: white;
+    border-bottom: #b1f6ff 2px solid;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #848daa;
+}
+
+.submitBtn {
+    background: rgb(53, 58, 81);
+    border: none;
+    padding: 10px;
+    color: #848daa;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+}
+
+.submitBtn:hover {
+    color: #b1f6ff;
+    transform: scale(1.1);
+}
