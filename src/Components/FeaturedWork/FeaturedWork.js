@@ -3,12 +3,13 @@
 import React from 'react';
 import "./FeaturedWork.css";
 import {Parallax, Background} from 'react-parallax';
-import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 import FeaturedWorkBg from './Assets/Images/FeaturedWorkBg.jpg';
 import ChevronRight from "./Assets/Images/chevron-right.svg";
 import {getPlaylistItems, getVideoThumbnail} from "../../Services/Youtube";
+import {useTranslation} from "react-i18next";
 
 const FeaturedWork = () => {
+    const {t} = useTranslation();
     const [featuredVideos, setFeaturedVideos] = React.useState(null);
     React.useEffect(() => {
         // Get promise from getPlaylistItems
@@ -45,7 +46,7 @@ const FeaturedWork = () => {
                     {featuredVideos &&
                         <div className="fw-content">
                             <div className="fw-header">
-                                <h2 className='fw-title glowingText'>Featured Work</h2>
+                                <h2 className='fw-title glowingText'>{t("featured_work")}</h2>
                             </div>
                             <div id="FeaturedVideosContainer" className="fw-showcase">
                                 <div className="first-videos">

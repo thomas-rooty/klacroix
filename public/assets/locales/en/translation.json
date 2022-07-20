@@ -1,4 +1,12 @@
 {
-  "hello_welcome_to_react": "Hello and welcome to React!",
-  "featured_work": "Featured Work"
+  "featured_work": "Featured Work",
+  "home": "HOME",
+  "about": "ABOUT",
+  "brands": "BRANDS",
+  "creative_videast": "A creative videast and drone pilot",
+  "intro_1": "After almost 3 years of developing my skill set in film making, I decided to launch my own business.",
+  "intro_2": "Je suis un pilote de drone certifié et film maker expérimenté",
+  "intro_3": "I can take care of all the production :",
+  "intro_4": "Filming, editing and delivering the project",
+  "intro_5": "Working together, we can elevate your social media content and experience to the next level through immersive visuals, detailed sound design, and professional-grade editing."
 }

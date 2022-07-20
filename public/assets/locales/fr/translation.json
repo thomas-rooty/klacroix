@@ -1,4 +1,12 @@
 {
-  "hello_welcome_to_react": "Bonjour!",
-  "featured_work": "Travail présenté"
+  "featured_work": "MON TRAVAIL",
+  "home": "ACCUEIL",
+  "about": "A PROPOS",
+  "brands": "MARQUES",
+  "creative_videast": "Vidéaste et pilote de drone créatif",
+  "intro_1": "Après presque plus de 3 ans d'apprentissage dans la création de films, j'ai décidé de lancer ma propre entreprise.",
+  "intro_2": "Je suis un pilote de drone certifié et film maker expérimenté,",
+  "intro_3": "me chargeant de l'entièreté de la production :",
+  "intro_4": "Tournage, édition et livraison du projet",
+  "intro_5": "En travaillant ensemble, nous pourrons faire passer votre contenu et votre expérience des médias sociaux à un niveau supérieur grâce à des visuels immersifs, une conception sonore détaillée et un montage de qualité professionnelle."
 }

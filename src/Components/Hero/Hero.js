@@ -23,7 +23,7 @@ const Hero = ({value: {setIsSiteReady}}) => {
 					<h2 className='glowingText'>KEVIN LACROIX</h2>
 					<AnchorLink href='#featuredwork'>
 						<button className='btn-banner glowingText' type="button">
-							{t("hello_welcome_to_react")}
+							{t("featured_work")}
 							<img src={ArrowRight} alt="Arrow Right"/>
 						</button>
 					</AnchorLink><br/>
