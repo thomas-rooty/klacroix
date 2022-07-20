@@ -10,7 +10,7 @@ const Presentation = () => {
 	return (
 		<section id='about'>
 			<Parallax bgImage={PresBg} strength={300}>
-				<div style={{height: 650}}>
+				<div className="parallax-presentation">
 					<div className="presentation-container">
 						<div className="presentation-header">
 							<h2 className='fw-title glowingText'>{t("about")}</h2>
